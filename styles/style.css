@@ -1,13 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-.wrapper {  
-    display:grid
-    padding: 10px 10px 10px 10px;
-    grid-gap: 10px;
-    border: 2px solid black
+/* Header */
+
+.profile-pic {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
+/* Main container */
+
+.wrapper > div {  
+    display:grid
+    font: 'Roboto' , sans-serif;
+    padding: 10px 10px 10px 10px;
+    grid-gap: 10px;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-area: 
+    
+}
+
+
+
+.header {
+background: rebeccapurple;
+}
+
+.side-bar {
+background: honeydew;
+}
+
+.content {
+background: indianred;
+}
+
+.bottom-bar {
+background: lightslategray;
+}
 
 
 
